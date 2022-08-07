@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="toDoList" src="https://github.com/LLR798/LMZ-Bank-app/blob/main/previews/lmzBankVideo.mp4?raw=true" width="33%">
+https://user-images.githubusercontent.com/82819237/183311122-065d4018-4b10-41f8-93af-f0e78c3d2aef.mp4
 </p>
 
 
