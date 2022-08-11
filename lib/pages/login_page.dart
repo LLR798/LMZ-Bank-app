@@ -7,7 +7,6 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: MediaQuery.of(context).size.height,
         color: const Color(0xFF5B0DA8),
         padding: const EdgeInsets.all(32),
         child: Column(
@@ -22,58 +21,54 @@ class LoginPage extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-                  const TextField(
-                    autofocus: true,
-                    decoration: InputDecoration(
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(5)),
-                        borderSide:
-                            BorderSide(color: Color(0xFFF2F2F2), width: 1),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(5)),
-                        borderSide:
-                            BorderSide(color: Color(0xFFF2F2F2), width: 1),
-                      ),
-                      hintText: 'user@mail.com',
-                      hintStyle:
-                          TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
-                      label: Text(
-                        'Login',
-                        style: TextStyle(
-                          color: Color(0xFFF2F2F2),
-                          fontSize: 22,
-                        ),
-                      ),
-                    ),
-                    style: TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
+            const TextField(
+              cursorColor: Color(0xFFF2F2F2),
+              autofocus: true,
+              decoration: InputDecoration(
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(5)),
+                  borderSide: BorderSide(color: Color(0xFFF2F2F2), width: 1),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(5)),
+                  borderSide: BorderSide(color: Color(0xFFF2F2F2), width: 1),
+                ),
+                hintText: 'user@mail.com',
+                hintStyle: TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
+                label: Text(
+                  'Login',
+                  style: TextStyle(
+                    color: Color(0xFFF2F2F2),
+                    fontSize: 22,
                   ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const TextField(
-                    decoration: InputDecoration(
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(5)),
-                        borderSide:
-                            BorderSide(color: Color(0xFFF2F2F2), width: 1),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(5)),
-                        borderSide:
-                            BorderSide(color: Color(0xFFF2F2F2), width: 1),
-                      ),
-                      hintText: '*******',
-                      hintStyle: TextStyle(color: Color(0xFFF2F2F2)),
-                      label: Text(
-                        'Senha',
-                        style:
-                            TextStyle(color: Color(0xFFF2F2F2), fontSize: 22),
-                      ),
-                    ),
-                    obscureText: true,
-                    style: TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
-                  ),
+                ),
+              ),
+              style: TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            const TextField(
+              cursorColor: Color(0xFFF2F2F2),
+              decoration: InputDecoration(
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(5)),
+                  borderSide: BorderSide(color: Color(0xFFF2F2F2), width: 1),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(5)),
+                  borderSide: BorderSide(color: Color(0xFFF2F2F2), width: 1),
+                ),
+                hintText: '*******',
+                hintStyle: TextStyle(color: Color(0xFFF2F2F2)),
+                label: Text(
+                  'Senha',
+                  style: TextStyle(color: Color(0xFFF2F2F2), fontSize: 22),
+                ),
+              ),
+              obscureText: true,
+              style: TextStyle(color: Color(0xFFF2F2F2), fontSize: 20),
+            ),
             const SizedBox(
               height: 20,
             ),

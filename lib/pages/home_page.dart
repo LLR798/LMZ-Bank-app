@@ -11,7 +11,6 @@ class HomePage extends StatelessWidget {
         children: [
           Container(
             width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
             color: const Color(0xFFFAFAFA),
             child: Column(
               children: const [
