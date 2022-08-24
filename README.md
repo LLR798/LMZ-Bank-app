@@ -5,7 +5,6 @@
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-
 </p>
 
 <br>
@@ -30,5 +29,6 @@ Frameworks
 
 ## 💻 Projeto
 
-Fiz um app de um banco fictício, para treinar meu aprendizado até aqui no flutter. O projeto tem um foco maior na UI. Mas vou ir atualizando ele e colocando melhorias, como validação de formulário, dentre outras coisas, fiquem ligados!<p align="center">
+<p align="center">
+Fiz um app de um banco fictício, para treinar meu aprendizado até aqui no flutter. O projeto tem um foco maior na UI. Mas vou ir atualizando ele e colocando melhorias, como validação de formulário, dentre outras coisas, fiquem ligados!
 </p>
