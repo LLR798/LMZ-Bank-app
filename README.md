@@ -29,6 +29,6 @@ Frameworks
 
 ## 💻 Projeto
 
-<p align="center">
+<p align="left">
 Fiz um app de um banco fictício, para treinar meu aprendizado até aqui no flutter. O projeto tem um foco maior na UI. Mas vou ir atualizando ele e colocando melhorias, como validação de formulário, dentre outras coisas, fiquem ligados!
 </p>
